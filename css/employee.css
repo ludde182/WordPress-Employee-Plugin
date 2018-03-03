@@ -1,0 +1,241 @@
+#main-wrapper .vc-container .container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#main-wrapper .vc-container .row {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.col-sm-6 {
+  width: 50%;
+  height: 700px;
+}
+
+.wpb_content_element {
+  background-repeat: no-repeat;
+  min-width: 50%;
+  background-size: 100%;
+}
+
+.page-id-4119 .wpb_text_column.wpb_content_element,
+.page-id-4434 .wpb_text_column.wpb_content_element {
+    background-size: cover;
+    background-position: center top;
+}
+
+/*.page-id-4119 .wpb_text_column :last-child,
+.page-id-4434 .wpb_text_column :last-child{
+    margin-bottom:-25px !important;
+}*/
+
+.page-id-4119 .vc_row.wpb_row.vc_row-fluid.vc_row-o-content-middle.vc_row-flex,
+.page-id-4434 .vc_row.wpb_row.vc_row-fluid.vc_row-o-content-middle.vc_row-flex{
+    margin-bottom: -25px !important;
+}
+
+.text_wrap_center {
+    text-align:center;
+}
+
+.text_wrap_center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* DIVIDER LINE */
+.vc_btn3.vc_btn3-color-black.vc_btn3-style-flat {
+    margin:5px;
+}
+
+.vc_btn3.vc_btn3-color-black.vc_btn3-style-flat:focus, .vc_btn3.vc_btn3-color-black.vc_btn3-style-flat:hover, .vc_btn3.vc_btn3-color-black:focus, .vc_btn3.vc_btn3-color-black:hover {
+    color: #f7f7f7 !important;
+    background-color: #1b1b1b;
+}
+
+.vc_btn3.vc_btn3-color-black.vc_btn3-style-flat:hover a, .vc_btn3.vc_btn3-color-black:focus, .vc_btn3.vc_btn3-color-black:hover a {
+    color: #f7f7f7 !important;
+}
+
+.vc_sep_holder .vc_sep_line {
+    height: 1px;
+    border-top: 1px solid #000000;
+    display: block;
+    position: relative;
+    top: 1px;
+    width: 100%;
+}
+
+.vc_sep_width_10 {
+    text-align:center;
+    width: 8%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vc_sep_holder .vc_sep_line {
+    border-top-width: 2px;
+}
+
+/* END DIVIDER LINE */
+
+p.people_title {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+p.people_info {
+    padding-bottom: 25px;
+}
+
+.col-sm-6.employee_info .wpb_text_column .text_wrap_center h1 {
+    margin-top: 0px !important;
+    padding-bottom: 10px !important;
+}
+
+/* TOOLTIP HOVER */
+
+.tooltip:hover { background:#ffffff; text-decoration:none;} /*BG color is a must for IE6*/
+.tooltip span {display:none; padding:2px 3px; margin-left:8px; width:130px;}
+.tooltip span:hover {display:inline; position:absolute; background:#ffffff; border:1px solid #cccccc; color:#6c6c6c;}
+
+
+/* ALPHABET CSS */
+
+.alphabet {
+	font-family: "proxima-nova",sans-serif !important;
+	font-style: normal;
+    font-weight: 700;
+    font-size:39px;
+    color: grey;
+    text-decoration: none;
+    line-height: 100%;
+    margin: 11px;
+    text-align: center;
+}
+
+.alphabet a, .alphabet a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.active {
+  text-decoration: none;
+}
+
+.alpha-cont {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  background: #212121;
+  vertical-align: middle;
+
+}
+
+.alpha-wrap {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  width: 50%;
+  height: 40%;
+  max-width:500px;
+  background: transparent;
+  text-align: center;
+}
+
+.alpha-wrap span {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.active_anchor {
+  padding-top: 290px;
+}
+
+/* ARROW ANIMATION BOUNCE */
+.animate_arrow img {
+  position: relative;
+  margin: 0 auto;
+  display: block;
+  top: 0em;
+  -webkit-animation: arrow 4s both infinite;
+  animation: arrow 4s both infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes arrow {
+0%, 100% {transform: translateY(0);}
+    50% {transform: translateY(15px);}
+} 
+ 
+@keyframes arrow {
+0%, 100% {transform: translateY(0);}
+    50% {transform: translateY(15px);}
+} 
+/**** ANIMATED ARROW ***/
+/* @-webkit-keyframes toshiba {
+    from{
+        margin-top:0;
+        opacity: 1;
+       
+    }
+    to{
+        margin-top: 20px;
+        opacity: 0;
+    }
+}
+.animate_arrow {
+    -webkit-animation: toshiba 2s linear infinite;
+    padding-top: 50px;
+    display: block;
+}*/
+
+.animate_arrow {
+    padding-top: 15%;
+}
+
+/**** END ANIMATED ARROW ****/
+
+@media all and (max-width: 768px) {
+    /* For mobile phones: */
+    .col-sm-6 {
+    width: 100%;
+    height: 550px;
+}
+    .row:nth-child(even) .col-sm-6.employee_thumbnail{
+    float: none !important;
+}
+    .wpb_text_column.wpb_content_element {
+    height: 550px !important;
+}
+
+.alpha-wrap {
+    width: 80%;
+    height: auto;
+}
+
+.alphabet {
+    margin: 5px 11px 0px 11px;
+    font-size:36px;
+}
+
+.alpha-cont {
+    height:450px;
+}
+
+.animate_arrow {
+    padding-top: 10%;
+}
+
+div.text_wrap_center {
+    width:300px;
+}
+}
+
+
